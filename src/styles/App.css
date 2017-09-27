@@ -2,11 +2,23 @@
   text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  margin-top: 40px;
+}
+
+.list-group-item {
+  list-style-type: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  width: 300px;
+  font-size: 1.2rem;
+  margin: 0 60px;
+}
+
+.list-group-item:hover {
+  color: #C941E0;
+}
+
+h1 {
+  text-align: center;
 }

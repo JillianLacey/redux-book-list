@@ -16,7 +16,7 @@ class BookList extends Component {
         ));
 
         return (
-            <ul className="list-group col-sm-4">
+            <ul>
                 {books}
             </ul>
         );
